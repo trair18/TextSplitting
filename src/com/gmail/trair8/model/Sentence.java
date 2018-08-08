@@ -5,15 +5,8 @@ import java.util.regex.Pattern;
 
 public class Sentence extends AbstractTextElement{
 
-    private String value;
-
-    public String getValue() {
-        return value;
-    }
-
     public Sentence(String value) {
         super(null, value);
-        this.value = value;
     }
 
     @Override
@@ -66,7 +59,7 @@ public class Sentence extends AbstractTextElement{
     @Override
     public String toString() {
         return getClass().getName() + "{" +
-                "value='" + value + '\'' +
+                "value='" + getChildren() + '\'' +
                 '}';
     }
 }
