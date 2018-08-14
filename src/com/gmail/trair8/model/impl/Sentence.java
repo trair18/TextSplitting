@@ -1,12 +1,15 @@
-package com.gmail.trair8.model;
+package com.gmail.trair8.model.impl;
+
+import com.gmail.trair8.model.AbstractTextElement;
+import com.gmail.trair8.model.TextElement;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Sentence extends AbstractTextElement{
+public class Sentence extends AbstractTextElement {
 
     public Sentence(String value) {
-        super(null, value);
+        super(value);
     }
 
     @Override

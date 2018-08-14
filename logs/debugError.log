@@ -1,0 +1,7 @@
+2018-08-14T16:18:53,434 [ERROR] (Runner.java:18) - com.gmail.trair8.loader.LoadException: asd
+2018-08-14T16:20:01,162 [ERROR] (Runner.java:18) - [Ljava.lang.StackTraceElement;@452e19ca
+2018-08-14T16:20:41,499 [ERROR] (Runner.java:18) - com.gmail.trair8.loader.LoadException: asd
+2018-08-14T16:21:09,316 [ERROR] (Runner.java:18) - asd
+2018-08-14T16:22:07,175 [ERROR] (Runner.java:18) - [Ljava.lang.StackTraceElement;@452e19ca
+2018-08-14T16:26:32,283 [ERROR] (Runner.java:18) - com.gmail.trair8.loader.LoadException: asd
+2018-08-14T16:27:15,832 [ERROR] (Runner.java:18) - com.gmail.trair8.loader.LoadException: FileNotFoundException

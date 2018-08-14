@@ -1,6 +1,10 @@
-package com.gmail.trair8.model;
+package com.gmail.trair8.model.impl;
 
-public class PunctuationMark extends AbstractTextElement{
+
+import com.gmail.trair8.model.AbstractTextElement;
+import com.gmail.trair8.model.TextElement;
+
+public class Word extends AbstractTextElement {
 
     private String value;
 
@@ -8,10 +12,9 @@ public class PunctuationMark extends AbstractTextElement{
         return value;
     }
 
-    public PunctuationMark(String value) {
-        super(null, value);
+    public Word(String value) {
+        super (value);
         this.value = value;
-
     }
 
     @Override
@@ -23,6 +26,9 @@ public class PunctuationMark extends AbstractTextElement{
     public String compose() {
         return getValue();
     }
+
+    @Override
+    protected void parse(String value) {}
 
     @Override
     public String toString() {
